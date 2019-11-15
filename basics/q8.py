@@ -13,3 +13,8 @@ listB = randomIntArray(5)
 
 print(listA)
 print(listB)
+
+i = 0
+while i < len(listA):
+    print("\n(" + str(listA[i]) + ", " + str(listB[i]) + ")")
+    i = i + 1
