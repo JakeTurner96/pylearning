@@ -5,4 +5,5 @@ def sumAll(list):
         total = total + i
     return total
 
-print(sumAll([1,2,3,4,5,6]))
+
+print(sumAll([1, 2, 3, 4, 5, 6]))
