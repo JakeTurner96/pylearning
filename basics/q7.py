@@ -1,5 +1,6 @@
 import random
 
+
 def randomIntArray(length):
     numbers = []
     i = 0
@@ -7,6 +8,7 @@ def randomIntArray(length):
         numbers.append(random.randint(1, 100))
         i = i + 1
     return numbers
+
 
 list = randomIntArray(10)
 

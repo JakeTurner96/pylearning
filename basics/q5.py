@@ -1,12 +1,12 @@
 userInput = input("Please input a string\n\n")
 
-dict = {}
+lettersDict = {}
 
 for i in userInput:
-    if i not in dict:
-        dict[i] = 1
+    if i not in lettersDict:
+        lettersDict[i] = 1
     else:
-        dict[i] += 1
+        lettersDict[i] += 1
 
-for i, j in dict.items():
+for i, j in lettersDict.items():
     print(i + " = " + str(j))

@@ -1,12 +1,14 @@
 import random
 
+
 def randomIntArray(length):
-    numbers = []
+    array = []
     i = 0
     while i < length:
-        numbers.append(random.randint(1, 100))
-        i = i + 1
-    return numbers
+        array.append(random.randint(1, 100))
+        i += 1
+    return array
+
 
 list = randomIntArray(10)
 divisors = []
@@ -14,7 +16,7 @@ divisors = []
 print("\nYour randomly generated list is: " + str(list))
 
 for i in list:
-    if i%5 ==0:
+    if i % 5 == 0:
         divisors.append(i)
 
 print("The divisors of 5 are: " + str(divisors))
