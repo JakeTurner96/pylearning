@@ -8,5 +8,6 @@ pythonObject = {
     "Hobbies": ["Skateboarding", "Cycling", "Gaming"]
 }
 
-with open("json_data.json", "w")as writeFile:
-    json.dump(pythonObject, writeFile)
+string = json.dumps(pythonObject)
+
+print(string)
