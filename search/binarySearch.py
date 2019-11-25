@@ -13,9 +13,9 @@ def binarySearch(arr, l, h, target):
         return False
 
 
-array = [4,8,12,16,20,24,28]
+array = [4, 8, 12, 16, 20, 24, 28]
 
-print("\nThe list of numbers is " + str(array))
+print(f"\nThe list of numbers is {str(array)}")
 
 userInput = input("Enter a number to search for \n\n")
 print(binarySearch(array, 0, len(array)-1, int(userInput)))

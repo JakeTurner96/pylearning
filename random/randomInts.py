@@ -8,7 +8,7 @@ def randNum(i):
         num = random.randint(100, 999)
         if num % 5 == 0:
             ints.append(num)
-            count = count + 1
+            count += 1
     return ints
 
 

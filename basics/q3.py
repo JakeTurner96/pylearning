@@ -1,22 +1,25 @@
 import random
+# Given a list of integers, print only those that are divisible by 5
 
 
+# A function for generating an array of random ints in the rang 1 - 100
+# The length of the list is n which is passed as a parameter
 def randomIntArray(length):
-    array = []
+    arr = []
     i = 0
     while i < length:
-        array.append(random.randint(1, 100))
+        arr.append(random.randint(1, 100))
         i += 1
-    return array
+    return arr
 
 
-list = randomIntArray(10)
+array = randomIntArray(10)
 divisors = []
 
-print("\nYour randomly generated list is: " + str(list))
+print(f"\nYour randomly generated list is: {str(array)}")
 
-for i in list:
+for i in array:
     if i % 5 == 0:
         divisors.append(i)
 
-print("The divisors of 5 are: " + str(divisors))
+print(f"The divisors of 5 are: {str(divisors)}")

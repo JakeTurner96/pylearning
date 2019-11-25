@@ -1,3 +1,4 @@
+# Function which given a list of integers, returns the sum of all numbers
 def sumAll(list):
     total = 0
 

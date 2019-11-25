@@ -1,5 +1,6 @@
-userInput = input("Please input a string\n\n")
+# Given an input string, count the occurrences of all characters and print the result
 
+userInput = input("Please input a string\n\n")
 lettersDict = {}
 
 for i in userInput:
@@ -9,4 +10,4 @@ for i in userInput:
         lettersDict[i] += 1
 
 for i, j in lettersDict.items():
-    print(i + " = " + str(j))
+    print(f"{i} = {str(j)}")

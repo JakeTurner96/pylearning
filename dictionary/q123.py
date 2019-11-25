@@ -19,7 +19,7 @@ def getBdByName():
 
 
 def getCurrentMonthBdName():
-    print("\nPeople with a birthday in " + calendar.month_name[month] + ":\n")
+    print(f"\nPeople with a birthday in {calendar.month_name[month]}:\n")
     found = False
     for i in myDictionary:
         if getMonth(i) == month:
